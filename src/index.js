@@ -13,6 +13,8 @@ import {
 
 import Header from './Components/Header'
 import Home from './Components/Home'
+import Contact from './Components/Contact'
+import About from './Components/About'
 
 
 
@@ -23,7 +25,9 @@ ReactDOM.render(
 <Router>
   <div>
     <Route path='/' component={App} />
-    <Route path='/' component={Home} />
+    <Route exact path='/' component={Home} />
+    <Route path='/contact' component={Contact} />
+    <Route path='/about' component={About} />
 
   </div>
 

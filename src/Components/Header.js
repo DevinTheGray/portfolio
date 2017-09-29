@@ -11,9 +11,18 @@ import {
 export default class Header extends Component {
   render(){
     return(
-      <div className='nav-bar'>
+      <div className='header'>
 
-
+          <div className='nav-bar'>
+            <div className='just-logo'>
+            <img className='dgp' src={require('../pictures/DG.png')}  />
+            </div>
+            <div className='just-links'>
+            <Link className='link' to="/"> Projects </Link>
+            <Link className='link' to="/contact"> Contact </Link>
+            <Link className='link' to="/about"> About </Link>
+            </div>
+          </div>
 
       </div>
     )
