@@ -25,10 +25,17 @@ export default class Home extends Component {
           <h1> Projects </h1>
           </div>
           <div className='project-box'>
-            <div className='grays-anatomy'>
-              {/* <img className='logo' src={require('../pictures/graysanatomy-logo.png')}  /> */}
-              <a href="http://graysanatomy.s3-website-us-west-2.amazonaws.com/"> <img src={require('../pictures/graysanatomy-logo.png')} /> </a>
-
+            <div className='project'>
+              <a href="http://graysanatomy.s3-website-us-west-2.amazonaws.com/"> <img className='picture' src={require('../pictures/graysanatomy-logo.png')} /> </a>
+            </div>
+            <div className='project'>
+              <a href="http://mycro.herokuapp.com/"> <img className='picture' src={require('../pictures/mycro.png')} /> </a>
+            </div>
+            <div className='project'>
+              <a href="https://q1-star-wars.firebaseapp.com/"> <img className='picture' src={require('../pictures/starwars.png')} /> </a>
+            </div>
+            <div className='project'>
+              <a href="https://stackdapp.herokuapp.com/"> <img className='picture' src={require('../pictures/stackD.png')} /> </a>
             </div>
 
           </div>

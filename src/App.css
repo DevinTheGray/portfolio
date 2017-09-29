@@ -50,3 +50,13 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.project-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.picture {
+  height: 60vh;
+  width: 40vw;  
+}
