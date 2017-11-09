@@ -13,12 +13,9 @@ export default class Home extends Component {
     return(
       <div className='home'>
         <div className='dev-logo'>
-        <img className='logo' src={require('../pictures/dg-logo.png')}  />
+        <img className='logo' src={require('../pictures/space.jpg')}  />
         </div>
-        <div className='dad-joke'>
-          <h3> Why should you never by anything with velcro on it?
-            It's a total rip off. </h3>
-        </div>
+
 
         <div className='projects'>
           <div className='intro'>
