@@ -43,31 +43,15 @@ export default class Home extends Component {
           <img className='resume' src={require('../pictures/DevinGrayResume.jpg')} />
         </div>
 
-        <div className='me'>
-          <div className='extra'>
-            <div className='git-hub'>
-              <a href="https://github.com/Devingray13"><img className='gitit' src={require('../pictures/github.jpg')} /></a>
-              <h2> DevinGray13 </h2>
-            </div>
-
-            <div className='git-hub'>
-              <img className='git' src={require('../pictures/phone.png')} />
-              <h2> 303-999-7370 </h2>
-            </div>
-          </div>
-          <div className='extra-1'>
-            <div className='git-hub'>
-              <img className='git' src={require('../pictures/email-logo.png')} />
-              <h2> devindevelops@gmail.com </h2>
-            </div>
-            <div className='git-hub'>
-              <a href="https://www.linkedin.com/in/devingray13/"><img className='git' src={require('../pictures/linkedin.jpg')} /></a>
-              <h2> devingray13 </h2>
-            </div>
-
-
+        <div className='contact-info'>
+            <h1> Contact </h1>
         </div>
-      </div>
+        <div className='links'>
+          <a href='https://www.linkedin.com/in/devingray13/'> <img className='go' src={require('../pictures/linkedin-1.png')} /> </a>
+          <a href='https://github.com/Devingray13'> <img className='go' src={require('../pictures/murakamicat.png')} /> </a>
+        </div>
+
+
 
 
 

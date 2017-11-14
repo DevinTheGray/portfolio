@@ -13,12 +13,6 @@ body {
 }
 
 
-.link {
-  color: rgba(255, 255, 255, .7);
-}
-.link:hover{
-  color: rgb(244, 160, 4);
-}
 .dgp {
   height: 7vh;
 }
@@ -79,14 +73,6 @@ body {
   height: 25vh;
 }
 
-.git-hub {
-  color: rgb(0, 200, 177);
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  margin-right: 15vw;
-
-}
 
 .contact {
   display: flex;
@@ -109,14 +95,14 @@ body {
 
 
 .full-resume {
-  background-color: 	rgb(44, 43, 61);
+  background-color: 	rgb(86, 89, 94);
   color: rgba(255, 255, 255, .7);
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 15vh;
+
 
 
 }
@@ -126,4 +112,21 @@ body {
   margin-bottom: 15vh;
   height: 200vh;
   width: 70vw;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, .7);
+  background-color: rgb(44, 43, 61);
+
+}
+.links {
+  color: rgba(255, 255, 255, .7);
+  background-color: rgb(44, 43, 61);
+
+}
+.go {
+  height: 5vh;
+
 }
