@@ -82,29 +82,21 @@ body {
 .extra {
   display: flex;
   justify-content: center;
-
-
-
 }
+
 .extra-1 {
   display: flex;
   justify-content: flex-end;;
-  /*margin-left: -150px; */
   margin-bottom: 15vh;
 }
-
 
 .full-resume {
   background-color: 	rgb(86, 89, 94);
   color: rgba(255, 255, 255, .7);
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-
-
 }
 
 .resume {
@@ -114,19 +106,18 @@ body {
   width: 70vw;
 }
 
-.contact-info {
-  display: flex;
-  justify-content: center;
-  color: rgba(255, 255, 255, .7);
-  background-color: rgb(44, 43, 61);
-
-}
 .links {
+  display: flex;
+  justify-content: space-around;
   color: rgba(255, 255, 255, .7);
   background-color: rgb(44, 43, 61);
-
+  padding-bottom: 8vh;
+  padding-top: 8vh;
 }
-.go {
-  height: 5vh;
 
+.go {
+  height: 15vh;
+}
+.cat {
+  height: 18vh;
 }
