@@ -13,8 +13,8 @@ export default class Home extends Component {
     return(
       <div className='home'>
         <div className='dev-logo'>
-        <img className='logo' src={require('../pictures/space.jpg')}  />
-        </div>
+        <h1 className='devin'> devin </h1> <h1 className='gray'> gray </h1>
+      </div>
 
 
         <div className='projects'>
