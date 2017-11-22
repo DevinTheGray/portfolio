@@ -19,7 +19,7 @@ export default class Home extends Component {
 
         <div className='projects'>
           <div className='intro'>
-          <h1> Projects </h1>
+          <h1> projects </h1>
           </div>
           <div className='project-box'>
             <div className='project'>
@@ -38,15 +38,23 @@ export default class Home extends Component {
           </div>
         </div>
 
-        <div className='full-resume'>
+        {/* <div className='full-resume'>
           <h1> Resume </h1>
           <img className='resume' src={require('../pictures/DevinGrayResume.jpg')} />
+        </div> */}
+
+        <div className='full-resume'>
+          <form>
+            <input type="submit" id="submit" onclick="document.getElementById('hidden').style.display = 'block';" />
+          </form>
+          <img className='hidden' src={require('../pictures/DevinGrayResume.jpg')} />
+
         </div>
 
 
         <div className='links'>
           <a href='https://github.com/Devingray13'> <img className='cat' src={require('../pictures/murakamicat.png')} /> </a>
-          <h2> devindevelops@gmail.com </h2>
+          <h2 className='email'> devindevelops@gmail.com </h2>
           <a href='https://www.linkedin.com/in/devingray13/'> <img className='go' src={require('../pictures/linkedin-1.png')} /> </a>
         </div>
 
