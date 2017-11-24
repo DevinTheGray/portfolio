@@ -43,13 +43,7 @@ export default class Home extends Component {
           <img className='resume' src={require('../pictures/DevinGrayResume.jpg')} />
         </div> */}
 
-        <div className='full-resume'>
-          <form>
-            <input type="submit" id="submit" onclick="document.getElementById('hidden').style.display = 'block';" />
-          </form>
-          <img className='hidden' src={require('../pictures/DevinGrayResume.jpg')} />
-
-        </div>
+      
 
 
         <div className='links'>
